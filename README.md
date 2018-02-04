@@ -6,12 +6,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Instalar [Angular CLI](https://cli.angular.io/)
 
-Starter service: `ng serve` ou `npm start`
+Starter service: `ng serve` ou `npm start` /n
 Navigate to `http://localhost:4200/`
 
 Instalar [Json Server](https://www.npmjs.com/package/json-server)
 
-Mocking backend: `json-server db.json`
+Mocking backend: `json-server db.json` \n
 Navigate to `http://localhost:3000/`
 
 ### Generate Component
