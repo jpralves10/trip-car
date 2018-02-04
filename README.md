@@ -6,12 +6,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Instalar [Angular CLI](https://cli.angular.io/)
 
-Starter service: `ng serve` ou `npm start` /n
+Starter service: `ng serve` ou `npm start` <br/>
 Navigate to `http://localhost:4200/`
 
 Instalar [Json Server](https://www.npmjs.com/package/json-server)
 
-Mocking backend: `json-server db.json` \n
+Mocking backend: `json-server db.json` <br/>
 Navigate to `http://localhost:3000/`
 
 ### Generate Component
@@ -47,41 +47,42 @@ Instalar [ts-helpers](https://www.npmjs.com/package/ts-helpers)
 
 ### Utilizando Git e GitHub
 
-Após Instalar o Git: 
-`git config --global user.name "Jean Alves"`
-`git config --global user.email "jpralves10@gmail.com"`
+Após Instalar o Git: <br/>
+`git config --global user.name "Jean Alves"` <br/>
+`git config --global user.email "jpralves10@gmail.com"` <br/>
 
-[Gerar SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-`ssh-keygen -t rsa -b 4096 -C "jpralves10@gmail.com"`
-`Enter/Enter/Enter`
+[Gerar SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) <br/>
+`ssh-keygen -t rsa -b 4096 -C "jpralves10@gmail.com"` <br/>
+`Enter/Enter/Enter` <br/>
 `cat id_rsa.pub`
 
-[Add SSH Key](https://github.com/settings/ssh/new)
-`Clicar no Botão "New SSH Key"`
+[Add SSH Key](https://github.com/settings/ssh/new) <br/>
+`Clicar no Botão "New SSH Key"` <br/>
 `Add Título e a Chave`
 
-Criar Novo Repositório:
-`git init`
-`git commit -m "first commit"`
-`git remote add origin https://github.com/jpralves10/meat-app.git`
+Criar Novo Repositório: <br/>
+`git init` <br/>
+`git commit -m "first commit"` <br/>
+`git remote add origin https://github.com/jpralves10/meat-app.git` <br/>
 `git push -u origin master`
 
-Push Repositório Existente
-`git remote add origin https://github.com/jpralves10/meat-app.git`
+Push Repositório Existente <br/>
+`git remote add origin https://github.com/jpralves10/meat-app.git` <br/>
 `git push -u origin master`
 
-Mudando Status e Comitando:
-`git status`
-`git add .`
-`git commit -am "Arquivos comitados"`
-`git log`
+Mudando Status e Comitando: <br/>
+`git status` <br/>
+`git add .` <br/>
+`git commit -am "Arquivos comitados"` <br/>
+`git log` <br/>
 `git push origin master`
 
 ### Observações Importantes
 
-Email Regex: `/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`
+Email Regex: <br/>
+`/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`
 
-Number Regex:
+Number Regex: <br/>
 `/^[0-9]*$/`
 
 ## Créditos
