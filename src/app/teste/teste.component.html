@@ -1,0 +1,64 @@
+<section class="content-header"></section>
+  
+<section class="content">
+
+    <div class="jumbotron welcome-jumbotron">
+      
+        <div class="form-group">
+          <label for="uploadArquivos">Exemplo selecionar multiplos arquivos:
+            <input type="file" id="uploadArquivos" (change)="onFileChange($event)" multiple>
+          </label>
+        </div><br/>
+
+        <div class="form-group">
+          <label for="profissao">Exemplo de select:
+            <select name="profissao" [(ngModel)]="profissaoSelecionada.id" (click)="apresentarNome()">
+              <option [ngValue]="null" disabled>[Escolha uma opção]</option>
+              <option *ngFor="let profissao of listaProfissoes" 
+                      [ngValue]="profissao.id">
+                  {{ profissao.nome }}
+              </option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="profissao">Exemplo de radio button:
+            <form>
+              <div class="radio">
+                <label><input type="radio" name="optradio" [checked]="profissaoSelecionada.id=='002'">Sim</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio" [checked]="profissaoSelecionada.id=='003'">Não</label>
+              </div>
+            </form>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="profissao">Exemplo TreeView:
+            <br/>
+            <ul>
+              <li *ngFor="let categoriaNivel1 of categorias">
+                {{categoriaNivel1.idCategoria}}
+                {{categoriaNivel1.descricao}}
+                <ul>
+                  <li *ngFor="let categoriaNivel2 of categoriaNivel1.subCategorias">
+                    {{categoriaNivel2.idCategoria}}
+                    {{categoriaNivel2.descricao}}
+                    <ul>
+                      <li *ngFor="let categoriaNivel3 of categoriaNivel2.subCategorias">
+                          {{categoriaNivel3.idCategoria}}
+                          {{categoriaNivel3.descricao}}
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </label>
+        </div>
+
+    </div>
+
+</section>

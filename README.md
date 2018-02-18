@@ -26,6 +26,10 @@ Run `ng build` to build the project. <br/>
 The build artifacts will be stored in the `dist/` directory. <br/>
 Use the `-prod` flag for a production build
 
+### Debugging Agular
+
+[Angular Augury](https://augury.angular.io/) //A Google Chrome Dev Tools extension for debugging Angular 2 or +  applications
+
 ### Instalar Complementos
 
 Instalar [admin-lte](https://www.npmjs.com/package/admin-lte)
@@ -88,6 +92,8 @@ Email Regex: <br/>
 
 Number Regex: <br/>
 `/^[0-9]*$/`
+
+[JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=pt-BR) // Validate and view JSON documents in Chrome
 
 ## Créditos
 
