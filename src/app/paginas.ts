@@ -1,9 +1,13 @@
 
 export class Paginas {
     
-    idPagina:string
-    mensagem:string
-    parametro:string
-
+    cdEmpresa:string
+    deMensagem:string
+    deParametros:string
+    nuPagina:string
+    qtPaginas:string
+    qtRegistros:string
+    qtRegistrosPorPagina:string
+    nuSequencia:string
     registros:any
 }
